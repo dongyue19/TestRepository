@@ -6,5 +6,10 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/houses?useUnicode=true&characterEncoding=UTF-8&useSSL=FALSE&serverTimezone=Hongkong
     username: root
-    password: 991226   
+    password: 991226
+  rabbitmq:
+    host: 192.168.0.112
+    port: 5672
+    username: admin
+    password: admin
 env: dev
